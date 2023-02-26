@@ -4,7 +4,7 @@ RUN rm /var/www/html/index.html
 
 #RUN rm /var/www/html/images
 
-ADD ./JashCustomprofessional/DevOpsProfessional /var/www/html
+ADD ./DefaultAppDeployment_TEST /var/www/html
 
 #ADD ./DevOpsProfessional/images /var/www/html
 

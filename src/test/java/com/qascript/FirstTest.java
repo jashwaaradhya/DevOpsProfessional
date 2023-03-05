@@ -17,7 +17,7 @@ public class FirstTest {
         options.addArguments("headless");
         options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
-        driver.get("http://20.235.108.114:85");
+        driver.get("http://20.198.6.161:85");
         System.out.println("Title of the page is: " + driver.getTitle());
         Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Intellipaat Application"));
     }
